@@ -1,0 +1,99 @@
+.headline {
+  font-size: 4rem;
+  font-family: var(--font-serif);
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.content {
+  padding: 1rem;
+  background-color: var(--dusty-aqua-light);
+  border: 1px solid var(--dusty-aqua);
+  margin-bottom: 1rem;
+}
+.content :first-child {
+  margin-top: 0;
+}
+.content :last-child {
+  margin-bottom: 0;
+}
+
+.buyersLayout {
+  background-color: var(--dusty-aqua);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  /* border-radius: 5px; */
+}
+
+.buyerCard {
+  align-content: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+  flex: 0 0 30%;
+  padding: 1.25rem 1rem;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.addToList {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+  margin-top: 1rem;
+}
+
+.container {
+  /* max-width: 1200px; */
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.formCont {
+  flex: 1 0 25%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  background-color: var(--dusty-blue);
+  padding: 2rem;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--dusty-blue);
+}
+
+.formInput:last-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--yellow);
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
